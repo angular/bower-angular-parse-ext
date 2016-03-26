@@ -1,0 +1,10 @@
+{
+  "name": "angular-parse-ext",
+  "version": "1.5.4",
+  "license": "MIT",
+  "main": "./angular-parse-ext.js",
+  "ignore": [],
+  "dependencies": {
+    "angular": "1.5.4"
+  }
+}
