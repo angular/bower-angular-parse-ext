@@ -1,6 +1,6 @@
 {
   "name": "angular-parse-ext",
-  "version": "1.5.7-build.4839+sha.a478f69",
+  "version": "1.5.7-build.4840+sha.146dad7",
   "description": "AngularJS ngParseExt module",
   "main": "index.js",
   "scripts": {
