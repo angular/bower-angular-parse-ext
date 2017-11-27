@@ -1,5 +1,5 @@
 /**
- * @license AngularJS v1.6.7
+ * @license AngularJS v1.6.8-build.5505+sha.0fa5a37
  * (c) 2010-2017 Google, Inc. http://angularjs.org
  * License: MIT
  */
@@ -1232,10 +1232,10 @@ function IDC_Y(cp) {
  * @description
  *
  * The `ngParseExt` module provides functionality to allow Unicode characters in
- * identifiers inside Angular expressions.
+ * identifiers inside AngularJS expressions.
  *
  * This module allows the usage of any identifier that follows ES6 identifier naming convention
- * to be used as an identifier in an Angular expression. ES6 delegates some of the identifier
+ * to be used as an identifier in an AngularJS expression. ES6 delegates some of the identifier
  * rules definition to Unicode, this module uses ES6 and Unicode 8.0 identifiers convention.
  *
  */
@@ -1263,7 +1263,7 @@ angular.module('ngParseExt', [])
   .config(['$parseProvider', function($parseProvider) {
     $parseProvider.setIdentifierFns(isValidIdentifierStart, isValidIdentifierContinue);
   }])
-  .info({ angularVersion: '1.6.7' });
+  .info({ angularVersion: '1.6.8-build.5505+sha.0fa5a37' });
 
 
 })(window, window.angular);
